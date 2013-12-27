@@ -1,24 +1,24 @@
-# Omniauth::Auphonic
+# Omniauth::Auphonic BETA
 
-TODO: Write a gem description
+**PLEASE DON'T USE THIS FOR PRODUCTION NOW**
 
-## Installation
+Omniauth strategy for [auphonic](https://auphonic.com).
 
-Add this line to your application's Gemfile:
+## Build
 
-    gem 'omniauth-auphonic'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install omniauth-auphonic
+1. build `gem build omniauth-auphonic.gemspec`
+2. install `gem install ./omniauth-auphonic-0.0.1.gem` 
+3. use `require omniauth-auphonic` 
 
 ## Usage
 
-TODO: Write usage instructions here
+Follow the build instructions.
+
+```ruby
+use OmniAuth::Builder do
+    provider :auphonic, "Client ID", "Client Secret"
+end
+```
 
 ## Contributing
 
