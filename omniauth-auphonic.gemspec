@@ -4,10 +4,10 @@ require File.expand_path('../lib/omniauth-auphonic/version', __FILE__)
 Gem::Specification.new do |spec|
   spec.name          = "omniauth-auphonic"
   spec.version       = Omniauth::Auphonic::VERSION
-  spec.authors       = ["fliiiix"]
-  spec.email         = ["de-ch@hotmail.de"]
+  spec.authors       = ["l33tname"]
+  spec.email         = ["hi@l33t.name"]
   spec.description   = %q{A Omniauth gem for Auphonic}
-  spec.summary       = %q{A Omniauth gem for Auphonic}
+  spec.summary       = %q{This GEM provied a Omniauth strategie to authenticate to Auphonic.} 
   spec.homepage      = ""
   spec.license       = "BSD"
 
@@ -19,5 +19,4 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'omniauth-oauth2', '~> 1.1'
 
   spec.add_development_dependency "bundler", "~> 1.3"
-  spec.add_development_dependency "rake"
 end
