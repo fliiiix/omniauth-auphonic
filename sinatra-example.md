@@ -6,7 +6,7 @@ require 'sinatra'
 require 'omniauth'
 require 'omniauth-auphonic'
 
- use Rack::Session::Cookie
+use Rack::Session::Cookie
 use OmniAuth::Builder do
   provider :auphonic, "xxx", "xxxx"
 end
