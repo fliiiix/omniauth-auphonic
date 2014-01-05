@@ -1,18 +1,13 @@
-# Omniauth::Auphonic BETA
+# Omniauth::Auphonic
 
-**PLEASE DON'T USE THIS FOR PRODUCTION NOW**
+[![Gem Version](https://badge.fury.io/rb/omniauth-auphonic.png)](http://badge.fury.io/rb/omniauth-auphonic)
+[![Build Status](https://travis-ci.org/fliiiix/omniauth-auphonic.png?branch=master)](https://travis-ci.org/fliiiix/omniauth-auphonic)
 
 Omniauth strategy for [auphonic](https://auphonic.com).
 
-## Build
-
-1. build `gem build omniauth-auphonic.gemspec`
-2. install `gem install ./omniauth-auphonic-0.0.1.gem` 
-3. use `require omniauth-auphonic` 
-
 ## Usage
 
-Follow the build instructions.
+Install it with `gem install omniauth-auphonic` or if you want build it from source follow the [build](#build) instructions.
 
 ```ruby
 use OmniAuth::Builder do
@@ -20,7 +15,16 @@ use OmniAuth::Builder do
 end
 ```
 
+## Build
+
+1. clone the repo `git clone https://github.com/fliiiix/omniauth-auphonic.git`
+2. build `gem build omniauth-auphonic.gemspec`
+3. install `gem install ./omniauth-auphonic-0.0.1.gem` 
+4. use `require omniauth-auphonic` 
+
 ## Contributing
+
+If you can please add test, because I have no plan of this things. xD
 
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
