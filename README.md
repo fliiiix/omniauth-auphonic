@@ -5,6 +5,8 @@
 
 Omniauth strategy for [auphonic](https://auphonic.com).
 
+This gem provides a simple way to authenticate to auphonic using OmniAuth with OAuth2.
+
 ## Usage
 
 Install it with `gem install omniauth-auphonic` or if you want build it from source follow the [build](#build) instructions.
