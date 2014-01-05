@@ -15,6 +15,8 @@ use OmniAuth::Builder do
 end
 ```
 
+[Sinatra example](/sinatra-example.md)
+
 ## Build
 
 1. clone the repo `git clone https://github.com/fliiiix/omniauth-auphonic.git`
