@@ -8,7 +8,7 @@ require 'omniauth-auphonic'
 
 use Rack::Session::Cookie
 use OmniAuth::Builder do
-  provider :auphonic, "xxx", "xxxx"
+  provider :auphonic, "Key", "Secret"
 end
 
 get '/' do
