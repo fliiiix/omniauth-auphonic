@@ -2,8 +2,12 @@
 
 [![Gem Version](https://badge.fury.io/rb/omniauth-auphonic.png)](http://badge.fury.io/rb/omniauth-auphonic)
 [![Build Status](https://travis-ci.org/fliiiix/omniauth-auphonic.png?branch=master)](https://travis-ci.org/fliiiix/omniauth-auphonic)
+[![Flattr](https://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=NichtAnonymHier&url=https%3A%2F%2Frubygems.org%2Fgems%2Fomniauth-auphonic)
+
 
 Omniauth strategy for [auphonic](https://auphonic.com).
+
+This gem provides a simple way to authenticate to auphonic using OmniAuth with OAuth2.
 
 ## Usage
 

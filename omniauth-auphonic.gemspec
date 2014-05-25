@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["hi@l33t.name"]
   spec.description   = %q{A Omniauth gem for Auphonic}
   spec.summary       = %q{This GEM provied a Omniauth strategie to authenticate to Auphonic.} 
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/fliiiix/omniauth-auphonic"
   spec.license       = "BSD"
 
   spec.files         = `git ls-files -- lib/*`.split("\n")
